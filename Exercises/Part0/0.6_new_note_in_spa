@@ -3,6 +3,6 @@ New note in Single page app diagram
   participant server
 
 browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
-
+activate server
 No redirect is asked by server.
 Event handler creates a new note, adds it to the notes list with the command then rerenders the note list on the page and sends the new note to the server.
