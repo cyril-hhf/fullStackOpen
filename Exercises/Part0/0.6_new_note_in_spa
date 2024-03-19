@@ -1,1 +1,6 @@
 New note in Single page app diagram
+  participant browser
+  participant server
+
+browser->server
+  
