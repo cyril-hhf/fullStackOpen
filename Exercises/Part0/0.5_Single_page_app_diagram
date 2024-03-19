@@ -1,4 +1,4 @@
-Enter single app page diagram
+Enter single page app diagram
   participant browser
   participant server
 
